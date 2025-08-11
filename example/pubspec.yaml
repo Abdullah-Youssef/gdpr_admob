@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   gdpr_admob:
     path: ..
-  google_mobile_ads: ^5.2.0
+  google_mobile_ads: ^6.0.0
 
 dev_dependencies:
   flutter_test:
