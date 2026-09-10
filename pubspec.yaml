@@ -1,20 +1,31 @@
 name: gdpr_admob
-description: A Flutter package to manage GDPR consent for AdMob ads in the European Economic Area (EEA) and initialize Google Mobile Ads SDK based on user consent status in Flutter applications.
-version: 1.0.3
-homepage: https://github.com/Abdullah-Youssef/gdpr_admob.git
+description: A production-ready Flutter wrapper for Google UMP consent and safe Google Mobile Ads initialization.
+version: 2.0.0
+homepage: https://github.com/Abdullah-Youssef/gdpr_admob
+repository: https://github.com/Abdullah-Youssef/gdpr_admob
+issue_tracker: https://github.com/Abdullah-Youssef/gdpr_admob/issues
+topics:
+  - admob
+  - consent
+  - gdpr
+  - privacy
+  - ump
+screenshots:
+  - description: Google UMP consent form displayed in the Flutter example.
+    path: images/example.png
 
 environment:
-  sdk: ">=3.4.1 <4.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=3.10.0 <4.0.0"
+  flutter: ">=3.38.1"
 
 dependencies:
   flutter:
     sdk: flutter
-  google_mobile_ads: ^5.2.0
+  google_mobile_ads: ^9.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
